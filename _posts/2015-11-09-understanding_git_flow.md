@@ -56,19 +56,4 @@ Version tag prefix? []
 
 *********************Creating/Deleting a tag******************************
 Deleting a tag:
----------------
-dk@typHooN:~/git/kndnc$ git tag -d ndnc_crm_api 
-Deleted tag 'ndnc_crm_api' (was 61b95e7)
-dk@typHooN:~/git/kndnc$ git tag -d ndnc_grafana_integration 
-Deleted tag 'ndnc_grafana_integration' (was 8d955ec)
-dk@typHooN:~/git/kndnc$ git status 
-On branch develop
-Your branch is up-to-date with 'origin/develop'.
-
-nothing to commit, working directory clean
-dk@typHooN:~/git/kndnc$ git push origin :refs/tags/ndnc_crm_api
-To git@bitbucket.org:knowlarity_team/kndnc.git
- - [deleted]         ndnc_crm_api
-dk@typHooN:~/git/kndnc$ git push origin :refs/tags/ndnc_grafana_integration
-To git@bitbucket.org:knowlarity_team/kndnc.git
- - [deleted]         ndnc_grafana_integration
+$ git tag -d <tag_name>
