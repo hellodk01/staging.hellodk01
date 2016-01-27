@@ -33,7 +33,11 @@ massively scalable open source NoSQL database. Cassandra is perfect for managing
 
 built-for-scale architecture means that it is capable of handling petabytes of information and thousands of concurrent users/operations per second.
 
-Cassandra is column oriented database
+An apache Software Foundation project, Cassandra is column oriented database and is an open source distributed database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
+
+Cassandra does not support joins or subqueries. Rather, Cassandra emphasizes denormalization through features like collections
+
+CQL - Cassandara Query Language
 
 Each node in a cluster can accept read and write requests, regardless of where the data is actually located in the cluster.
 
